@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.block .nav-menu a {
+    color: #000;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 2;
+}
+
+h2 {
+    font-size: 52px;
+    text-transform: uppercase;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+header {
+    position: fixed;
+    padding-top: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #fafafa;
+    width: 100%;
+    z-index: 10;
+}
+
+button {
+    background-color: #ffe600;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container .block {
+    width: 50%;
+    float: left;
+}
+
+
+.container .block-triple {
+    width: 33.333333%;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.spacer {
+    padding: 62px 0;
+}
+
+.bg-grey {
+    background-color: #fdfdfd;
+}
+
+
+header .navigation .nav-menu {
+    float: right;
+}
+
+header .navigation .nav-menu a {
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.greetings .text-area h1 {
+    font-size: 48px;
+    line-height: 1.6;
+}
+
+.greetings .text .text-area {
+    padding: 85px 0 150px 10px;
+}
+
+.greetings .text .text-area p {
+    margin-top: 20px;
+}
+
+.greetings .text .text-area button {
+    margin-top: 30px;
+}
+
+.greetings .video-area {
+    padding: 80px 40px 150px 40px;
+}
+
+.greetings .video-area video {
+    width: 100%;
+}
+
+.blog .lorem {
+    width: 50%;
+}
+
+.partners .partners-area {
+    padding: 30px 0 80px 0;
+}
+
+.partners ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.img-partners img {
+    margin: 20px 45px;
+    width: 100px;
+}
+
+.blog .lorem-area {
+    padding: 30px 550px 60px 0;
+}
+
+.blog .list h3 {
+    text-transform: uppercase;
+    padding: 30px 0 20px 0;
+}
+
+.blog .list {
+    padding: 0 0 100px 0;
+}
+
+.contact .contacts-area {
+    padding: 100px 0 120px 0;
+}
+
+.contact .contacts-area {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.contact .contacts-area h3 {
+    padding: 80px 0 35px 0;
+    font-size: 30px;
+}
+
+.contact .contacts-area .form {
+    margin-top: -45px;
+}
+
+.address .contacts-area {
+    text-align: center;
+}
+
+.address .contacts-area .block-triple ul li a {
+    color: #000;
+}
+
+.form input {
+    width: 100%;
+    height: 40px;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+.form textarea {
+    padding: 10px;
+    width: 100%;
+}
+
+.social .contacts-area img {
+    width: 30px;
+    padding: 50px 0;
+}
+
+.social .contacts-area .block-triple {
+    text-align: center;
+}
+
+.social .contacts-area .text-right {
+    text-align: right;
+}
+
+.social .contacts-area .text-left {
+    text-align: left;
+}
+
+.social .contacts-area .block-social {
+    float: left;
+    width: 45%
+}
+
+.social .contacts-area .block-center {
+    float: left;
+    width: 10%;
+}
+
+footer {
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 50px 0 20px 0;
+}
+
+footer .logo a {
+    color: #fff;
+    float: left;
+}
+
+footer p {
+    float: left;
+    margin: 20px 0 0 25px;
+}
+
+footer .top a {
+    float: right;
+    color: #fff;
+    margin: 20px 0 0 25px;
+}
